@@ -168,7 +168,7 @@
                     android:layout_height="match_parent"
                     android:layout_gravity="center"
                     android:paddingStart="170dp"
-                    android:text="Wanay Rocky Mountain"
+                    android:text="Hotel Elegant"
                     android:textAlignment="center"
                     android:textColor="@color/black"
                     android:textSize="23sp"

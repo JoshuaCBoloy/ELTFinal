@@ -13,6 +13,66 @@
         android:theme="@style/Theme.TriForceEverythingLaTrinidad"
         tools:targetApi="31">
         <activity
+            android:name=".elegantDetails"
+            android:exported="false" />
+        <activity
+            android:name=".wanayDetails"
+            android:exported="false" />
+        <activity
+            android:name=".redDetails"
+            android:exported="false" />
+        <activity
+            android:name=".gardenDetails"
+            android:exported="false" />
+        <activity
+            android:name=".homestayDetails"
+            android:exported="false" />
+        <activity
+            android:name=".yangbewDetails"
+            android:exported="false" />
+        <activity
+            android:name=".colorsDetails"
+            android:exported="false" />
+        <activity
+            android:name=".sunflowerDetails"
+            android:exported="false" />
+        <activity
+            android:name=".kalugongDetails"
+            android:exported="false" />
+        <activity
+            android:name=".strawberryDetails"
+            android:exported="false" />
+        <activity
+            android:name=".tableDetails"
+            android:exported="false" />
+        <activity
+            android:name=".loveDetails"
+            android:exported="false" />
+        <activity
+            android:name=".kaleiDetails"
+            android:exported="false" />
+        <activity
+            android:name=".gardenerDetails"
+            android:exported="false" />
+        <activity
+            android:name=".dampaDetails"
+            android:exported="false" />
+        <activity
+            android:name=".kapeDetails"
+            android:exported="false" />
+        <activity
+            android:name=".fiikaDetails"
+            android:exported="false" />
+        <activity
+            android:name=".kaiDetails"
+            android:exported="false" />
+        <activity
+            android:name=".halfDetails"
+            android:exported="false" />
+        <activity
+            android:name=".sinnerDetails"
+            android:exported="false" />
+        <activity
             android:name=".SpotsActivity"
             android:exported="false" />
         <activity
