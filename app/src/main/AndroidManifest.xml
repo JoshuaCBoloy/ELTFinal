@@ -13,6 +13,9 @@
         android:theme="@style/Theme.TriForceEverythingLaTrinidad"
         tools:targetApi="31">
         <activity
+            android:name=".ChangeIconName"
+            android:exported="false" />
+        <activity
             android:name=".elegantDetails"
             android:exported="false" />
         <activity
