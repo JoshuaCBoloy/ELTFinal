@@ -22,7 +22,7 @@
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_marginStart="16dp"
-        android:layout_marginTop="16dp"
+        android:layout_marginTop="14dp"
         android:fontFamily="@font/rubik_medium"
         android:text="Kape-an Mt. Kalugong"
         android:textSize="20sp"
@@ -40,4 +40,27 @@
         app:layout_constraintHorizontal_bias="0.111"
         app:layout_constraintStart_toStartOf="@+id/textView2"
         app:layout_constraintTop_toBottomOf="@+id/textView2" />
+
+    <TextView
+        android:id="@+id/textView6"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        android:fontFamily="@font/rubik_medium"
+        android:text="Located at : Mt. Kalugong, Tayawan, La Trinidad"
+        android:textSize="16sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textView3" />
+
+    <ImageView
+        android:id="@+id/imageView6"
+        android:layout_width="400dp"
+        android:layout_height="282dp"
+        android:layout_marginTop="8dp"
+        android:scaleType="fitXY"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textView6"
+        app:srcCompat="@drawable/kapemenu" />
 </androidx.constraintlayout.widget.ConstraintLayout>

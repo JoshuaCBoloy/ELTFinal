@@ -40,4 +40,27 @@
         app:layout_constraintStart_toStartOf="@+id/textView2"
         app:layout_constraintTop_toBottomOf="@+id/textView2" />
 
+    <TextView
+        android:id="@+id/textView6"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="4dp"
+        android:fontFamily="@font/rubik_medium"
+        android:text="Located at : Km. 5, 133 Pico Rd, Pico, La Trinidad"
+        android:textSize="16sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textView3" />
+
+    <ImageView
+        android:id="@+id/imageView6"
+        android:layout_width="400dp"
+        android:layout_height="282dp"
+        android:layout_marginTop="8dp"
+        android:scaleType="fitXY"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textView6"
+        app:srcCompat="@drawable/halfmenu" />
+
 </androidx.constraintlayout.widget.ConstraintLayout>
